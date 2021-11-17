@@ -9,9 +9,7 @@ body{
     color:#39a6b2
 }
 
-h1{
-    font-size:100px;
-}
+
 
 /*region header*/
 header{
@@ -23,7 +21,7 @@ header{
     padding applies top, right, bottom, left
     padding: 10px 15px 20px 25px
     */
-    padding:20px;
+    padding:20px 35px;
     background-color: #39a6b2;
     overflow: auto;
 }
@@ -81,6 +79,10 @@ footer a{
     color: #024e76;
 }
 /*endregion*/
+
+section{
+    padding:60px
+}
 
 /*region section Hero*/
 
