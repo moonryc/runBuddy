@@ -182,7 +182,7 @@ section {
     background: #fce138;
 }
 
-.step{
+.step {
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
@@ -194,9 +194,8 @@ section {
 }
 
 
-
-.step-text{
-    flex:12;
+.step-text {
+    flex: 12;
 }
 
 .step h3 {
@@ -210,25 +209,25 @@ section {
     font-size: 23px;
 }
 
-.step-text h4{
+.step-text h4 {
     font-size: 26px;
     color: #024e76;
     line-height: 1.5;
 }
 
-.step-info{
+.step-info {
     flex: 2 70%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
 
-.step-img{
+.step-img {
     flex: 1 12%;
     margin-right: 20px;
 }
 
-.step-img img{
+.step-img img {
     max-width: 100%;
 }
 
@@ -238,7 +237,7 @@ section {
 /*region section your-trainers*/
 
 .trainers {
-    width:100%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -255,7 +254,7 @@ section {
 
 .trainer img {
 
-    width:100%;
+    width: 100%;
 }
 
 .trainer-bio {
@@ -319,17 +318,23 @@ section {
     color: #fce138;
 }
 
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
+
 .contact-info iframe {
-    width: 400px;
+
     height: 400px;
 }
 
 .contact-info div {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
     color: white;
 }
 
@@ -341,7 +346,7 @@ section {
 .contact-info p, .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
 }
 
@@ -349,8 +354,30 @@ section {
     color: #fce138;
 }
 
+.contact-form input, .contact-form textarea {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.contract-form button {
+    width: 100%;
+    border: none;
+    background: #fce138;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+
+}
+
 /*endregion*/
 
-.flex-row{
+.flex-row {
     display: flex;
 }
