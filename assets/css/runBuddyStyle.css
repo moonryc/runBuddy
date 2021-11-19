@@ -1,16 +1,16 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Helvetica, Arial, sans-serif;
-    color:#39a6b2
+    color: #39a6b2
 }
 
 /*region header*/
-header{
+header {
     /*
     padding applies to every side
     padding:10px;
@@ -19,27 +19,27 @@ header{
     padding applies top, right, bottom, left
     padding: 10px 15px 20px 25px
     */
-    padding:20px 35px;
+    padding: 20px 35px;
     background-color: #39a6b2;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-header h1{
+header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
-    margin:0;
+    margin: 0;
 
 }
 
-header a{
+header a {
     text-decoration: none;
     color: #fce138;
 }
 
-header nav{
+header nav {
     margin: 7px 0;
 }
 
@@ -51,48 +51,50 @@ header nav ul {
     list-style: none;
 }
 
-header nav ul li a{
+header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
+
 /*endregion*/
 
 /*region footer*/
-footer{
+footer {
     background-color: #fce138;
     width: 100%;
-    padding:40px 35px;
+    padding: 40px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-footer h2{
+footer h2 {
 
     color: #024e76;
     font-size: 30px;
     margin: 0;
 }
 
-footer div{
+footer div {
 
     text-align: right;
     line-height: 1.5;
 }
 
-footer a{
+footer a {
     color: #024e76;
 }
+
 /*endregion*/
 
-section{
-    padding:60px
+section {
+    padding: 60px
 }
 
 /*region section Hero*/
 
-.hero{
+.hero {
     background-image: url("../images/hero-bg.jpg");
     display: flex;
     justify-content: center;
@@ -102,8 +104,8 @@ section{
 
 }
 
-.hero-cta{
-    width:35%;
+.hero-cta {
+    width: 35%;
     text-align: right;
     margin: 3.5%;
     color: #fff;
@@ -111,13 +113,13 @@ section{
     line-height: 1.3;
 }
 
-.hero-cta h2{
+.hero-cta h2 {
     font-size: 55px;
     font-style: italic;
     color: #fce138;
 }
 
-.hero-form{
+.hero-form {
     background-color: #fce138;
     padding: 20px;
     width: 40%;
@@ -128,20 +130,20 @@ section{
     border-color: #024e76;
 }
 
-.hero-form h3{
-    font-size:  24px;
+.hero-form h3 {
+    font-size: 24px;
     margin: 0;
 }
 
-.hero-form p{
+.hero-form p {
     margin: 5px 0 15px 0;
 }
 
-.hero-form label{
+.hero-form label {
     margin: 0 5px;
 }
 
-.hero-form button{
+.hero-form button {
     color: #fce138;
     background-color: #024e76;
     border: none;
@@ -149,7 +151,7 @@ section{
     font-size: 16px;
 }
 
-.form-input{
+.form-input {
     border: 1px solid #024e76;
     display: block;
     padding: 7px 15px;
@@ -158,59 +160,88 @@ section{
     width: 100%;
     margin-bottom: 15px;
 }
+
 /*endregion*/
 
 /*region section what-we-do*/
-.intro {
-    text-align: center;
-}
 
-.intro p{
+
+.intro p {
     line-height: 1.7;
     font-size: 20px;
     color: #39a6b2;
     width: 80%;
     margin: 0 auto;
+    text-align: center;
 }
+
 /*endregion*/
 
 /*region section what-you-do*/
-.steps{
-    text-align: center;
+.steps {
     background: #fce138;
 }
 
-.steps div{
-    margin-bottom: 80px;
+.step{
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.steps img{
-    width: 15%;
-    margin: 10px 0;
+
+
+.step-text{
+    flex:12;
 }
-.steps h3{
+
+.step h3 {
     font-size: 46px;
-    margin-top: 10px;
+    flex: 1 30%;
     color: #024e76;
 }
 
-.steps p{
+.steps p {
     color: #39a6b2;
     font-size: 23px;
 }
 
-.steps span{
-    font-size: 38px;
+.step-text h4{
+    font-size: 26px;
+    color: #024e76;
+    line-height: 1.5;
 }
+
+.step-info{
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.step-img{
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+.step-img img{
+    max-width: 100%;
+}
+
+
 /*endregion*/
 
 /*region section your-trainers*/
 
-.trainers{
-    text-align: center;
+.trainers {
+
 }
 
-.trainer{
+.trainer {
     width: 900px;
     margin: 0 auto 30px auto;
     background: #024e76;
@@ -218,15 +249,15 @@ section{
     overflow: auto;
 }
 
-.trainer img{
-    width:35%;
-    float:left;
+.trainer img {
+    width: 35%;
+    float: left;
 }
 
-.trainer-bio{
-    padding:35px;
-    float:left;
-    width:65%;
+.trainer-bio {
+    padding: 35px;
+    float: left;
+    width: 65%;
 }
 
 .trainer-bio h3 {
@@ -245,50 +276,52 @@ section{
     line-height: 1.3;
 }
 
-.text-left{
+.text-left {
     text-align: left;
 }
 
-.text-right{
+.text-right {
     text-align: right;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
 /*endregion*/
 
-.section-title{
+.section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
-.primary-border{
+.primary-border {
     border-color: #fc9c38;
 }
 
-.secondary-border{
+.secondary-border {
     border-color: #39a6b2;
 }
 
 /*region section contact*/
-.contact{
-text-align: center;
+.contact {
     background: #024e76;
 }
-.contact h2{
+
+.contact h2 {
     color: #fce138;
 }
 
-.contact-info iframe{
+.contact-info iframe {
     width: 400px;
     height: 400px;
 }
+
 .contact-info div {
     width: 410px;
     display: inline-block;
@@ -315,3 +348,7 @@ text-align: center;
 }
 
 /*endregion*/
+
+.flex-row{
+    display: flex;
+}
